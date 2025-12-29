@@ -1,6 +1,6 @@
 {
 	"name": "typeseq",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "typeseq is a lightweight, deterministic type-aware serialization format for flat JavaScript objects",
 	"type": "module",
 	"main": "./dist/index.js",
