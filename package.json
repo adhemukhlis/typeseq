@@ -1,0 +1,50 @@
+{
+	"name": "typeseq",
+	"version": "1.0.0",
+	"description": "typeseq is a lightweight, deterministic type-aware serialization format for flat JavaScript objects",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"default": "./dist/index.js"
+		}
+	},
+	"sideEffects": false,
+	"scripts": {
+		"build": "tsup"
+	},
+	"files": [
+		"dist"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adhemukhlis/typeseq.git"
+	},
+	"keywords": [
+		"serialization",
+		"encoding",
+		"decoder",
+		"typescript",
+		"deterministic",
+		"payload"
+	],
+	"author": "adhemukhlis",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/adhemukhlis/typeseq/issues"
+	},
+	"homepage": "https://github.com/adhemukhlis/typeseq#readme",
+	"engines": {
+		"node": ">=18"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"tsup": "^8.5.1",
+		"typescript": "^5.9.3"
+	}
+}

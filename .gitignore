@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+yarn.lock
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+.env
+nohup.out
+.DS_Store
+*.pem
